@@ -1,0 +1,113 @@
+body {
+    background-image: url("../imagen/bg.png");
+    animation: fondoAnimado 60s infinite linear;
+}
+
+* {
+    font-family: 'Starwars';
+}
+
+@font-face {
+    font-family: 'Starwars';
+    src: url('../STARWARS.ttf') format('woff'); 
+}
+
+@keyframes fondoAnimado {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 0;
+    }
+}
+
+h1 {
+    text-align: center;
+    color: yellow;
+    margin-top: 10px;
+}
+
+.nombre {
+    color: rgba(222, 176, 8, 0.901);
+}
+
+#imagenes {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 250px;
+    margin-left: 640px;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+
+#img1 {
+    text-align: center;
+    height: 250px;
+    width: 250px;
+    background-image: url("../imagen/card_bg.jpg");
+    border-radius: 10px;
+    transform: rotate(-15deg);
+    margin-top: 100px;
+    box-shadow: 0 0 20px rgba(255, 216, 86, 0.829);
+}
+
+#img2 {
+    text-align: center;
+    height: 250px;
+    width: 250px;
+    background-image: url("../imagen/card_bg.jpg");
+    border-radius: 10px;
+    transform: rotate(-15deg);
+    margin-top: 30px;
+    box-shadow: 0 0 20px rgba(255, 216, 86, 0.829);
+}
+
+#img3 {
+    text-align: center;
+    height: 250px;
+    width: 250px;
+    background-image: url("../imagen/card_bg.jpg");
+    border-radius: 10px;
+    transform: rotate(0deg);
+    box-shadow: 0 0 20px rgba(255, 216, 86, 0.829);
+}
+
+#img4 {
+    text-align: center;
+    height: 250px;
+    width: 250px;
+    background-image: url("../imagen/card_bg.jpg");
+    border-radius: 10px;
+    transform: rotate(15deg);
+    margin-top: 30px;
+    box-shadow: 0 0 20px rgba(255, 216, 86, 0.829);
+}
+
+#img5 {
+    text-align: center;
+    height: 250px;
+    width: 250px;
+    background-image: url("../imagen/card_bg.jpg");
+    border-radius: 10px;
+    transform: rotate(15deg);
+    margin-top: 100px;
+    box-shadow: 0 0 20px rgba(255, 216, 86, 0.829);
+}
+
+.estadisticas {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.estadistica {
+    color: yellow;
+    text-align: center;
+}
